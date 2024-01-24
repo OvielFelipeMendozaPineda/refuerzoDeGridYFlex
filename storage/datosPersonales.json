@@ -1,0 +1,15 @@
+{
+    "personal" :
+    {
+      "nombre": "Oviel Felipe Mendoza",
+      "fecha de nacimiento": "08/07/2004",
+      "edad": "19 años",
+      "genero": "Masculino",
+      "nacionalidad": "Colombiana",
+      "contacto":
+      {
+        "movil": "123456789",
+        "correo": "ovielfelipe77@gmail.com"
+      }
+    }
+}
