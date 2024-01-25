@@ -318,15 +318,33 @@ section{
   height: 50%;
 }
 
+.form1{
 
-
-.caja2Container3 .form1{
-  /* border: 1px dotted rgb(143, 78, 78); */
-  width: 100%;
+  width: 70%;
   height: 50%;
 }
 
+.caja2Container3 .form1{
+  /* border: 1px dotted rgb(143, 78, 78); */
+  width: 90%;
+  height: 40%;
+  margin: 15px;
+}
+.controls{
+  width: 100%;
+  background: #25292c;
+  padding: 10PX;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  color:aliceblue;
+}
 
+.boton{
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
 
 
 .container3_5{
