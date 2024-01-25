@@ -84,16 +84,16 @@ header{
   /* border: 1px dotted green; */
 
 }
-.banner{
+.banner {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url(../storage/PBANNER.png);
-  background-size:  ;
-  object-fit: contain;
-
-
+  background-image: url(../storage/Banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .container1 picture img{
   width: 100%;
   height: 100%;
@@ -113,13 +113,14 @@ header{
 .caja1Container1 h2{
   position: absolute;
   text-align: center;
-  font-size: clamp(1rem, 3vw, 1.3rem);  
-  width: 50%;
+  font-size: clamp(1rem, 3vw, 3rem);  
+  width: 100%;
   height: 25%;
   margin: auto;
   top: 0;
   right: 0;
   left: 0;
+  color: white;
   /* border: 1px dotted black; */
 }
 
@@ -128,6 +129,8 @@ header{
   text-align: center;
   width: 50%;
   height: 25%;
+  font-size: clamp(1rem, 3vw, 2rem);  
+  color: azure;
   margin: auto;
   top: 25%;
   right: 0;
@@ -135,15 +138,23 @@ header{
   /* border: 1px dotted black; */
 }
 .caja1Container1 button{
+  background: blueviolet;
+  color:  white;
   position: absolute;
   text-align: center;
-  width: 50%;
-  height: 25%;
+  width: 20%;
+  height: 10%;
+  border-radius: 50px;
+  border: none;
   margin: auto;
   right: 0;
   bottom: 0;
   left: 0;
   /* border: 1px dotted black; */
+}
+
+.caja1Container1 button:hover{
+  filter: drop-shadow(0px 0px 20px rgb(152, 90, 209));
 }
 
 section{
@@ -157,7 +168,7 @@ section{
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 30%;
+  height: 40%;
 }
 
 .caja1Container2{
@@ -172,13 +183,33 @@ section{
 
 
 .caja1Container2 h2, picture, p{
-  width: 90%;
-  height: 30%;
+  width: 50%;
+  height: 20%;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  /* border: 1px dotted black; */
+}
+
+.caja1Container2 picture{
+  width: 500px;
+  height: 60%;
   display: flex;
   justify-content:center ;
   align-items: center;
   overflow: hidden;
   /* border: 1px dotted black; */
+}
+
+
+
+
+.caja1Container2 picture img{
+  max-width: 100%;
+  margin: 5px;
+  height: auto;
 }
 .caja1Container2 h2{
   margin-top: 15px;
@@ -219,7 +250,7 @@ section{
   height: 35%;
   margin-top: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -229,6 +260,35 @@ section{
 
 .subCaja2Caja2Container2 picture, p{
   margin: 5px;
+}
+
+.subCaja1Caja2Container2 picture{
+  min-width: 150px;
+  max-width: 300px;
+  height: 200px;
+  
+}
+
+
+
+
+
+
+.subCaja1Caja2Container2 picture img{
+  width: 100%;
+
+}
+
+.subCaja2Caja2Container2 picture img{
+  width: 100%;
+}
+
+.subCaja2Caja2Container2 picture{
+
+  min-width: 150px;
+  max-width: 250px;
+  height: 180px;
+  
 }
 
 
